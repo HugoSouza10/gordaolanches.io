@@ -410,6 +410,8 @@ footer .newsletter .botao-control{
 	}
 }
 
+/*CELULAR PEQUENO*/
+
 @media (max-width: 320px){
 
 	.main-container{
@@ -419,6 +421,14 @@ footer .newsletter .botao-control{
 
 	footer .main-footer{
 		flex-wrap: wrap;
+	}
+
+	footer .newsletter{
+		padding: 20px;
+	}
+
+	footer .newsletter .form-control{
+		margin-bottom: 10px;
 	}
 
 	.content-gordao-info{
@@ -462,6 +472,37 @@ footer .newsletter .botao-control{
 		width: 100px;
 	}
 	
+}
+
+@media (max-width: 415px){
+	.delivery{
+		flex-direction: column;
+		height: auto;
+	}
+
+	.content-geral-lanches{
+		flex-direction: column;
+	}
+	.content-gordao-info .content-unidades img{
+		width: 150px;
+	}
+
+	.content-gordao-info{
+		max-width: 100%;
+		flex-direction: column;
+	}
+
+	.content-gordao-info .content-gordao-combina-geral{
+		width: 100%;
+	}
+
+
+	.content-gordao-info .content-unidades{
+			width: 100%;
+			min-height: 300px;
+			height: auto;
+			margin-top: 10px;
+	}
 }
 
 
