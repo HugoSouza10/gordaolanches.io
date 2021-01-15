@@ -503,6 +503,27 @@ footer .newsletter .botao-control{
 			height: auto;
 			margin-top: 10px;
 	}
+
+	.delivery .botao-pedido{
+		font-size: 21px;
+		width: auto;
+		padding: 17px;
+	}
+
+	/*FOOTER*/
+
+	footer .main-footer{
+		flex-direction: column;
+	}
+
+
+	
+}
+
+@media (max-width: 568px){
+	.content-geral-lanches{
+		flex-direction: column;
+	}
 }
 
 
