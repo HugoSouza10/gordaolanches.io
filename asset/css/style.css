@@ -411,6 +411,39 @@ footer .newsletter .botao-control{
 }
 
 @media (max-width: 320px){
+
+	.main-container{
+		padding-right:0px;
+    	padding-left: 0px;
+	}
+
+	.content-gordao-info{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.content-gordao-info .content-gordao-combina-geral{
+		width: 100%;
+	}
+
+	.content-itens-lanches .content-text-lanches h2{
+		font-size: 23px;
+	}
+
+	.content-gordao-info .content-unidades img{
+		width: 75%;
+		
+	}
+
+	.content-gordao-info .content-unidades{
+		width: 100%;
+		height: 200px;
+	}
+
+	.content-geral-lanches{
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
 	.delivery{
 		height: auto;
 		flex-direction: column;
@@ -419,6 +452,10 @@ footer .newsletter .botao-control{
 	.delivery .botao-pedido{
 		font-size: 21px;
 		width: auto;
+	}
+
+	.container-header .logo img{
+		width: 100px;
 	}
 }
 
