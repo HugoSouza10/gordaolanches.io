@@ -1,0 +1,430 @@
+@font-face{
+	font-family: 'font-principal';
+	src: url('../font/ThirstyScriptExtraBoldDemo.otf');
+}
+
+@font-face{
+	font-family: 'font-principal2';
+	src: url('../font/CapricaScriptPersonalUse.ttf');
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+#cabecalho{
+	box-shadow: 1px 0.5px 10px #333;
+}
+
+/*Slide show header*/
+#slideShow{
+	margin-top: 20px;
+}
+
+
+#cabecalho .bar-header{
+	max-width: 100%;
+	background-color: #f6f6f6;
+
+}
+
+ .container-header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1170px;
+	padding: 10px;
+	margin: auto;
+	line-height: 30px;
+	color:#9d9d9d;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.main-container{
+	max-width: 1170px;
+	margin: auto;
+	
+}
+
+#cabecalho .header-principal .container-geral{
+	padding: 20px;
+	align-items: center;
+
+}
+
+
+/*MENU*/
+#cabecalho .menu-principal .active a{
+	color: #ca1036;
+	border-bottom: 4px solid #ca1036 ;
+}
+
+
+#cabecalho .menu-principal a:hover{
+	color: #ca1036;
+	border-bottom: 4px solid #ca1036 ;
+}
+
+#cabecalho .header-principal nav ul{
+	list-style: none;
+	display: flex;
+}
+
+#cabecalho .header-principal nav ul li{
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+
+#cabecalho .header-principal nav ul li a{
+	text-decoration: none;
+	color: #9D9DA0;
+	text-transform: lowercase;
+	font-family: 'font-principal';
+}
+
+
+/*MAIN*/
+.main-delivery{
+	margin-top: 50px;
+}
+
+.delivery{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 93px;
+	background-color: #34c3f2;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.delivery h1{
+	color: #ca1036;
+	font-family: 'font-principal';
+	font-size: 55px;
+}
+
+.delivery p{
+	color: white;
+	font-family: 'font-principal';
+	font-size: 22px;
+	margin-top: -38px;
+	margin-left: 10px;
+}
+
+.delivery .burger{
+	background-image: url("../imagens/burger.png");
+	width: 234px;
+    height: 163px;
+}
+
+.delivery .botao-pedido{
+	color:  #ca1036;
+	background-color: #fcb040;
+	padding: 12px;
+	font-size: 29px;
+	font-family: 'font-principal';
+	text-align: center;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 0px -1px #000;
+	text-shadow: 1px 1px #000;
+	cursor: pointer;
+}
+
+.main-container .delivery a{
+	text-decoration: none;
+}
+
+.delivery .botao-pedido:hover{
+	transition: 0.5s;
+	background-color: #ca1036;
+	color: #fcb040;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	
+	
+}
+
+/*Main cardápio*/
+
+.content-geral-lanches{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.content-itens-lanches{
+	width: 324px;
+	height: 324px;
+	text-align: center;
+	padding: 20px;
+	background-color:  #fcb040;
+	margin-bottom: 20px;
+}
+
+
+
+.content-itens-lanches .content-text-lanches h2{
+	margin-top: 1px;
+	font-size: 33px;
+	color: #fff;
+	font-family: 'font-principal';
+}
+
+.content-geral-lanches #vegetariano{
+	background-color: #34c3f2;
+}
+
+.content-geral-lanches #sucos-especiais{
+	background-color: #7b3a6a;
+}
+
+.content-geral-lanches #chicken-gordao{
+	background-color: #4dc3ca;
+}
+
+.content-geral-lanches #cachorro-quente{
+	background-color: #ca1036;
+}
+
+/*CORPO COMBINADO GORDÃO*/
+
+.content-gordao-info{
+	display: flex;
+	justify-content: space-between;
+}
+.content-gordao-info .content-combinado-gordao{
+	width: 197px;
+	height:361px;
+	background-color:#ca1036;
+}
+
+.content-gordao-info .content-gordao-combina-geral{
+	display: flex;
+}
+
+.content-gordao-info .content-unidades{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 31%;
+	background-image: url("../imagens/bg-unidades.jpg");
+}
+
+
+.content-gordao-info .botao-combinado-gordao{
+	position: absolute;
+    margin-top: 152px;
+    margin-left: 49px;
+}
+
+/*footer*/
+
+footer .bar-footer{
+	height: 50px;
+	margin-top: 20px;
+	background: #f3f4f6;
+    padding: 15px 0;
+    margin-bottom: 35px;
+}
+
+
+footer .bar-footer .main-container .content-footer{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content: flex-end;
+}
+
+footer .main-footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 64px;
+}
+
+footer .newsletter{
+	color:#909090;
+}
+footer .newsletter form{
+	margin-top: 10px;
+}
+
+footer .newsletter label{
+	font-size: 18px;
+}
+
+
+footer .newsletter .form-control{
+	width: 200px;
+	padding-left: 14px;
+	border-radius: 10px;
+	background-color: #f3f4f6;
+	box-shadow: none;
+	color: #909090;
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid #f3f4f6;
+	outline: none;
+}
+
+footer .newsletter .botao-control{
+	width: 120px;
+	cursor: pointer;
+	color:#956826;
+	padding: 6px 20px 5px;
+	font-size: 16px;
+	background-color: #fcb040;
+	border: none;
+	border-radius: 20px;
+}
+
+
+/*Menu footer*/
+
+
+.menu-footer nav{
+	width: 300px;
+}
+
+
+.menu-footer nav .menu-float{
+	float: right;
+	margin-top: -68px;
+}
+
+.menu-footer ul{
+	list-style: none;
+	
+}
+
+.menu-footer ul li a{
+	text-decoration: none;
+	color: #909090;
+	transition: all .2s cubic-bezier(0.4, 0, 1, 1);
+	font-size: 18px;
+}
+
+.menu-footer ul li a:hover{
+	color:#ca1036;
+}
+
+/*INFORMAÇÕES ENDEREÇOS*/
+
+.places-footer ul{
+	display: flex;
+	list-style:none;
+	justify-content: space-around;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.places-footer ul li h4{
+	font-size: 18px;
+	font-weight: 700;
+	
+}
+
+.places-footer address{
+	color: #909090;
+	font-size: 14px;
+}
+
+
+
+/*RESPONSIVO
+1- PARA TABLETE(768PX)
+1- PARA MOBILE (414PX)
+1- PARA MOBILE DEITADO.
+1- PARA MOBILE MUITO PEQUENO(320PX)
+
+*/
+
+@media (max-width: 768px){
+	.content-gordao-info{
+		width: 100%;
+	}
+
+	.content-gordao-info .content-combinado-gordao{
+		display: none;
+	}
+	.content-gordao-info .content-unidades{
+		width: 75%;
+	}
+
+	.content-gordao-info .content-gordao-combina-geral .conten-combinado-banner img{
+			width: 97%;
+	}
+
+	#cabecalho .header-principal nav ul{
+		display: none;
+	}
+
+	.delivery .burger{
+		display: none;
+	}
+
+	.delivery h1{
+		font-size: 45px;
+	}
+
+	/*CONTAINER GERAL*/
+	.main-container{
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/*MENU FOOTER*/
+	.menu-footer nav .menu-float{
+		margin-right: 56px;
+	}
+
+	.places-footer ul{
+		flex-wrap: wrap;
+	}
+}
+
+/*PC PEQUENO*/
+@media (max-width: 1024px){
+	.main-container{
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+	.delivery .burger{
+		display: none;
+	}
+
+	.content-itens-lanches{
+		width: auto;
+		padding: 10px;
+	}
+
+	.content-gordao-info .content-gordao-combina-geral {
+		width: 65%;
+	}
+}
+
+@media (max-width: 320px){
+	.delivery{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.delivery .botao-pedido{
+		font-size: 21px;
+		width: auto;
+	}
+}
+
+
+
+
+
+
+
