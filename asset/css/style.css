@@ -427,6 +427,10 @@ footer .newsletter .botao-control{
 		padding: 20px;
 	}
 
+	.places-footer ul{
+		flex-direction: column;
+	}
+
 	footer .newsletter .form-control{
 		margin-bottom: 10px;
 	}
