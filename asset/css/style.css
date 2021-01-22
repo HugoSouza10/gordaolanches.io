@@ -520,9 +520,20 @@ footer .newsletter .botao-control{
 		flex-direction: column;
 	}
 
+	.places-footer ul{
+		flex-direction: column;
+	}
+
 
 	
 }
+
+@media (max-width: 375px){
+	.content-geral-lanches{
+		flex-direction: column;
+	}
+}
+
 
 @media (max-width: 568px){
 	.content-geral-lanches{
