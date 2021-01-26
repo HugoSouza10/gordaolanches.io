@@ -88,6 +88,61 @@ body{
 }
 
 
+/*ICONE DO MENÚ ANIAMDO*/
+#cabecalho .menu-mobile{
+	display: none;
+	width: 60px;
+	height: 60px;
+	position: relative;
+}
+
+#cabecalho .menu-mobile::after{
+	content: '';
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top: 30%;
+	transition: 0.5 ease;
+	background-color: #ca1036;
+	border-radius: 20px;
+	transition: 0.5s ease;
+}
+
+#cabecalho .menu-mobile::before{
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 50%;
+	left:28%;
+	transition: 0.5s ease;
+	background-color: #ca1036;
+	border-radius: 20px;
+}
+
+/*Efeito de clique*/
+
+#cabecalho .menu-principal #hamburgue:checked ~ label .menu-mobile:after{
+	transform: rotate(225deg);
+	width: 60%;
+	height: 10%;
+	left: 12%;
+    top: 39%;
+	
+}
+
+#cabecalho .menu-principal #hamburgue:checked ~ label .menu-mobile:before{
+	transform: rotate(-405deg);
+	top: 41%;
+	left: 15%;
+	width: 60%;
+	
+}
+
+/*SELETOR ~ SELECIONA TUDO QUE VOCÊ QUISER DE UMA SÓ VEZ*/
+
+
+
 /*MAIN*/
 .main-delivery{
 	margin-top: 50px;
@@ -347,6 +402,11 @@ footer .newsletter .botao-control{
 @media (max-width: 768px){
 	.content-gordao-info{
 		width: 100%;
+	}
+
+	/*menu*/
+	#cabecalho .menu-mobile{
+		display: block;
 	}
 
 	.content-gordao-info .content-combinado-gordao{
