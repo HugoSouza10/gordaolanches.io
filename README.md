@@ -15,6 +15,11 @@ uma lanchonete  que nasceu em 1981 com a proposta norte americana de hamburgueri
 
 
 
+**Objetivo:** O principal objetivo desse projeto é mostrar meus conhecimentos  de front-end nas tecnologias Html5, Css3 e Js.
+Este projeto é um clone de um site chamado gordaolanches, uma empresa de lanches que está no mercada a desde 1981.
+
+
+
 [](https://emojipedia.org/laptop/)
 
 ### 💻 **Tecnologias:** 
@@ -22,6 +27,8 @@ uma lanchonete  que nasceu em 1981 com a proposta norte americana de hamburgueri
  - HTML 5
  - CSS3
  - JS
+
+
  
  
  ### 💻 **Processo de criação:** 
@@ -36,8 +43,7 @@ https://lanchesgordao12.000webhostapp.com/
 
 
 
-**Objetivo:** O principal objetivo desse projeto é mostrar meus conhecimentos  de front-end nas tecnologias Html5, Css3 e Js.
-Este projeto é um clone de um site chamado gordaolanches, uma empresa de lanches que está no mercada a desde 1981.
+
 
 
 [](https://emojipedia.org/books/)
